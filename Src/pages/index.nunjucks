@@ -1,0 +1,31 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<div class="wrapper">
+{% include "../templates/partials/header.nunjucks" %}
+<div class="l-separator">
+  <div class="c-separator">
+    <div class="blue-square">
+
+    </div>
+  </div>
+  <div class="c-read-indicator">
+    <ul class="c-read-indic-trail flex">
+      {# could use a better suited font-icon rather than '<p>></p>' #}
+      <li><a>Home</a><p>></p></li>
+      <li><a>Journals</a><p>></p></li>
+      <li><a>Journal of Astrophysics</a><p>></p></li>
+      <li><a>Volume 32,Issue 4</a><p>></p></li>
+      <li><a>Approximate Communication: Techniques for Reducing Communication Bottlenecks in Large-Scale Parallel Systems</a></li>
+    </ul>
+  </div>
+</div>
+<div class="l-content-wrap flex around">
+  {% include "../templates/partials/left-sidebar.nunjucks" %}
+  {% include "../templates/partials/main-content.nunjucks" %}
+  {% include "../templates/partials/right-sidebar.nunjucks" %}
+</div>
+</div>
+{% include "../templates/partials/footer.nunjucks" %}
+{% endblock %}

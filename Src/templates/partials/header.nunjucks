@@ -1,0 +1,45 @@
+<!-- header.nunjucks -->
+<header class="l-header">
+  <div class="c-head-part1 c-logo-pseudo c-logo-h-pseudo flex between">
+    {# I assume that this would be an img of the logo instead #}
+    <a href="#" class="logo header-logo"><span class="first-word">Scientific</span> Publications</a>
+    <div class="prt1-menu flex">
+      <p class="access">Access by Carnegie Mellon University</p>
+      <div class="prt1-wrap flex">
+        <div><a href="#">Browse</a></div>
+        <div><a href="#">Announcements</a></div>
+        <div><a href="#">About</a></div>
+        <div><a href="#">Log in</a></div>
+        <div><a href="#">Register</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="c-head-part2 flex between">
+    <div class="prt2-wrap flex">
+      <div><a href="#">Journals</a></div>
+      <div><a href="#">Magazines</a></div>
+      <div><a href="#">Proceedings</a></div>
+      <div><a href="#">Books</a></div>
+      <div><a href="#">Conferences</a></div>
+    </div>
+    <div class="c-search flex">
+      <div>
+      <input type="text" placeholder="Search..">
+      <i class="fas fa-angle-down"></i>
+    </div>
+      <i class="fas fa-search"></i>
+    </div>
+  </div>
+  <div class="c-head-part3 flex center">
+      <div><a href="#">Journal Home</a></div>
+      <div><a href="#">Latest Issue</a></div>
+      <div><a href="#">Archive</a></div>
+      <div><a href="#">Authors</a></div>
+      <div><a href="#">Reviewers</a></div>
+      <div><a href="#">Editors</a></div>
+      <div><a href="#">Affiliations</a></div>
+      <div><a href="#">Award Winners</a></div>
+      <div><a href="#">About</a></div>
+      <button class="subscribe">Subscribe</button>
+  </div>
+</header>

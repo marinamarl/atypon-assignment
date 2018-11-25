@@ -1,0 +1,29 @@
+.c-separator{
+  background: rgba(0, 0, 0, 0.12);
+  height: 8px;
+  .blue-square{
+    height: 100%;
+    width: 33%;
+    background: #0187B3;
+  }
+}
+.c-read-indic-trail {
+  margin-left: 1em;
+  li{
+  display: flex;
+  a, p{
+    color: #E0E0E0;
+    &:hover{color: #8e8888;}
+  }
+  p{margin: 0 5px;}
+  &:last-child{
+    width: 27%;
+    a{
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      color: black;
+    }
+  }
+}
+}

@@ -1,0 +1,10 @@
+a{
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+  &:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
+ul{padding: 0;}

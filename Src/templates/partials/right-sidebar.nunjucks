@@ -1,0 +1,9 @@
+<div class="c-right-sidebar flex">
+  <img src="assets/info.svg" alt="Info svg">
+  <img src="assets/graph.svg" alt="graph svg">
+  <img src="assets/eye.svg" alt="eye svg">
+  <img src="assets/link.svg" alt="link svg">
+  {#  need :before element with number of links#}
+  <img src="assets/calendar.svg" alt="calendar svg">
+  <img src="assets/share.svg" alt="share svg">
+</div>

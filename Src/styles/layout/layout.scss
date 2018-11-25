@@ -1,0 +1,24 @@
+body{
+  margin: 0;
+  height: 100%;
+  font-family: 'Merriweather sans';
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  .wrapper{flex: 1;}
+}
+
+.flex{
+  display: flex;
+  &.between{
+    justify-content: space-between;
+  }
+  &.around{
+    justify-content: space-around;
+  }
+  &.center{
+    justify-content: center;
+  }
+}
+
+.l-main-content-wrap{width: 50%;}

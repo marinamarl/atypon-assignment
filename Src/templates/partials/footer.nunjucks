@@ -1,0 +1,48 @@
+<div class="c-footer footer">
+  <div class="c-footer-inner ">
+    <div class="l-cols-wrap flex between">
+      <ul class="c-foot-col-1 c-foot-col">
+        <li>Categories</li>
+        <li><a href="#">Journals</a></li>
+        <li><a href="#">Magazines</a></li>
+        <li><a href="#">Proceedings</a></li>
+        <li><a href="#">Books</a></li>
+        <li><a href="#">Conferences</a></li>
+        <li><a href="#">Collections</a></li>
+      </ul>
+      <ul class="c-foot-col-2 c-foot-col">
+        <li>About</li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Subscription Information</a></li>
+        <li><a href="#">Author Guidelines</a></li>
+      </ul>
+      <ul class="c-foot-col-3 c-foot-col">
+        <li>Subscriptions</li>
+        <li><a href="#">Join Us</a></li>
+        <li><a href="#">Subscribe to publications</a></li>
+        <li><a href="#">Institutions and Libraries</a></li>
+      </ul>
+      <ul class="c-foot-col-4 c-foot-col">
+        <li>Connect</li>
+        <li><a href="#">Announcements</a></li>
+        <li><a href="#">Apps</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Linkedin</a></li>
+        <li><a href="#">RSS</a></li>
+      </ul>
+    </div>
+    <div class="c-foot-bottom flex between">
+      <div class="c-bottom-col-1 flex">
+        <a href="#" class="ftr-txt">Terms of Usage</a>
+        <a href="#" class="ftr-txt">Privacy Policy</a>
+        <a href="#" class="ftr-txt">Code of Ethics</a>
+      </div>
+      <div class="c-bottom-col-2 flex">
+        <p class="ftr-txt">Copyright © 2018 Scientific Publications</p>
+        <div class="c-logo-pseudo c-logo-f-pseudo footer flex between"><a href="#" class="logo footer-logo"><span class="first-word">Scientific</span> Publications</a></div>
+      </div>
+    </div>
+  </div>
+</div>
