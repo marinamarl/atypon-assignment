@@ -4,14 +4,14 @@
     <ul>
       <li>Volume 32,Issue 4</li>
       <li>January 2018</li>
-      <li><a href="#">
-        <img src="assets/Arrow(left).svg" alt="Arrow (left) svg">
-        Previous</a>
-    <a href="#">Next
-      <img src="assets/Arrow(right).svg" alt="Arrow(right) svg">
-    </a>
-    </li>
     </ul>
+    <span class="navigation flex between"><a href="#">
+      <img src="assets/Arrow(left).svg" alt="Arrow (left) svg">
+      Previous</a>
+      <a href="#">Next
+        <img src="assets/Arrow(right).svg" alt="Arrow(right) svg">
+      </a>
+    </span>
   </div>
   <div class="c-lsbr-2 c-sbr">
     <ul>

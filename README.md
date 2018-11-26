@@ -39,3 +39,9 @@ Day 5:
 2) Left Sidebar creation
 3) Filler for content created
 4) Right sidebar icons creation
+
+Day 6:
+1) Actual right sidebar structure
+2) Right sidebar with icons animation from right to Left
+3) Sticky header (black only) Note: I would have liked to use a pure css solution with the 'sticky' value for the 'position' property. However it is not supported for IE and some versions of other browsers such as Edge and Chrome support it only partially. see https://caniuse.com/#search=sticky
+4) Mobile version
