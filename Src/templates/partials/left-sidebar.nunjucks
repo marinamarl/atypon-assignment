@@ -14,18 +14,18 @@
     </ul>
   </div>
   <div class="c-lsbr-2 c-sbr">
-    <h5 class="current flex">Abstract</h5>
     <ul>
-      <li>Introduction</li>
-      <li>Methods</li>
-      <li>Results</li>
-      <li>Discussion</li>
-      <li>Footnotes</li>
-      <li>References</li>
-      <li>Supplementary material</li>
-      <li>Comments</li>
+      <li class="current"><a>Abstract</a></li>
+      <li><a>Introduction</a></li>
+      <li><a>Methods</a></li>
+      <li><a>Results</a></li>
+      <li><a>Discussion</a></li>
+      <li><a>Footnotes</a></li>
+      <li><a>References</a></li>
+      <li><a>Supplementary material</a></li>
     </ul>
   </div>
+  <div class="c-sbr-comment c-sbr"><p class="">Comments</p></div>
   <div class="c-lsbr-3 c-sbr">
     <div class="c-logo-pseudo c-logo-f-pseudo footer flex between"><a href="#" class="logo footer-logo"><span class="first-word">Scientific</span> Publications</a></div>
   </div>
