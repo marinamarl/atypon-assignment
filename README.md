@@ -7,8 +7,7 @@ Nunjucks decision
 I used nunjucks to break down the test into partials instead of php, because as a quick to setup test i was aiming to use as few tools as possible.
 
 Fonts:
-This is the free version of fonts, which are not exactly the right ones for the project (i opted to use those anyway since its a quick test). I am aware that they are smaller and bolder than the right ones.
-
+I have opted for not using any fonts as there were none specified, but using the svgs from  figma. Fonts can be very specific for each project and so didnt want to use just ones that 'looked' similar.
 
 Add setup steps
 --------------
@@ -16,7 +15,9 @@ Add setup steps
 Future steps
 --------------
 a) Better tree: example, separate node_modules and package-lock.json from the rest of folders and files. (done)
+
 b) breakpoint at 780px
+
 c) mobile responsive
 
 Workday:
