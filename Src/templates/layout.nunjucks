@@ -22,5 +22,6 @@
   {% block content %} {% endblock %}
   {# <script src="bower_components/jquery/dist/jquery.js"></script>
   <script src="js/main.js"></script> #}
+  <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
