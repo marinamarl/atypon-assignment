@@ -24,13 +24,14 @@ Workday:
 --------
 Day 1: Setup automation (npm/gulp) of created files and structure of folder/file tree (nunjucks).
 
-Day 2: (starting to fall ill) Create and style header
+Day 2:
+1) Create and style header
+2) Footer creation
+3) Restructure files to source files
+4) distribution files and have files like node modules outside of Dist.
+5) Break down css into modular structure, refactor to BEM.
 
-Day 3:
-1) Restructure files to source files
-2) distribution files and have files like node modules outside of Dist.
-3) Break down css into modular structure, refactor to BEM.
-4) Footer creation
+Day 3: Fell ill in bed
 
 Day 4: Fell ill in bed
 
@@ -41,7 +42,11 @@ Day 5:
 4) Right sidebar icons creation
 
 Day 6:
+1) Sticky header (black only) Note:
+I spend much time trying to figure out a pure css cross browser solution. I would have liked to use a pure css solution with the 'sticky' value for the 'position' property. However it is not supported for IE and some versions of other browsers such as Edge and Chrome support it only partially. see https://caniuse.com/#search=sticky
+Further, i spend much time trying to find an esc6 solution for handling the window object (the use of 'let') but let can not be defined in the window object (as i understood it).
+
+Day 7:
 1) Actual right sidebar structure
 2) Right sidebar with icons animation from right to Left
-3) Sticky header (black only) Note: I would have liked to use a pure css solution with the 'sticky' value for the 'position' property. However it is not supported for IE and some versions of other browsers such as Edge and Chrome support it only partially. see https://caniuse.com/#search=sticky
-4) Mobile version
+3) Mobile version

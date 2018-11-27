@@ -23,6 +23,14 @@ body{
 
 .sticky{
   position: fixed;
+  &.c-right-sidebar{
+    position: fixed;
+    z-index: 1;
+    background: #fff;
+    overflow-x: hidden;
+    top:50%;
+    right:5%;
+  }
 }
 
 

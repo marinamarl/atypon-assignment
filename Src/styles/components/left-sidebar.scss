@@ -1,6 +1,7 @@
 .c-left-sidebar{
   border: solid #E0E0E0 1px;
   box-shadow: 0 6px 11px 0px rgba(0, 0, 0, 0.08);
+  height: 100%;
 }
 .c-sbr{
   padding: 0 16px;
@@ -52,4 +53,18 @@
 
 .c-sbr-comment{
   border-bottom: solid #E0E0E0 1px;
+  align-items: center;
+  &::after{
+    content: '17';
+    background-color: rgba(0, 119, 194, 0.54);
+    border-radius: 50%;
+    margin-left: 5px;
+    padding: 0px;
+    width: 10%;
+    height: 10%;
+    color: white;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+  }
 }

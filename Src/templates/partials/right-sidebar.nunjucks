@@ -1,4 +1,4 @@
-<div class="c-right-sidebar flex">
+<div class="c-right-sidebar u-sidebar flex">
   <img src="assets/info.svg" alt="Info svg">
   <img src="assets/graph.svg" alt="graph svg">
   <img src="assets/eye.svg" alt="eye svg">

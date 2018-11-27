@@ -25,8 +25,8 @@
       <li><a>Supplementary material</a></li>
     </ul>
   </div>
-  <div class="c-sbr-comment c-sbr"><p class="">Comments</p></div>
+  <div class="c-sbr-comment flex c-sbr"><p class="">Comments</p></div>
   <div class="c-lsbr-3 c-sbr">
-    <div class="c-logo-pseudo c-logo-f-pseudo footer flex between"><a href="#" class="logo footer-logo"><span class="first-word">Scientific</span> Publications</a></div>
+    <div class="c-logo-pseudo c-logo-s-pseudo flex between"><a href="#" class="logo sidebar-logo"><span class="first-word">Scientific</span> Publications</a></div>
   </div>
 </div>
