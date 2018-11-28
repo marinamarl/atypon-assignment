@@ -1,4 +1,5 @@
-<div class="c-right-sidebar u-sidebar flex">
+<div class="l-right-wrap">
+<div class="c-r-side-opener fixed u-side-open flex">
   <img src="assets/info.svg" alt="Info svg">
   <img src="assets/graph.svg" alt="graph svg">
   <img src="assets/eye.svg" alt="eye svg">
@@ -6,4 +7,56 @@
   {#  need :before element with number of links#}
   <img src="assets/calendar.svg" alt="calendar svg">
   <img src="assets/share.svg" alt="share svg">
+</div>
+
+<div class="c-right-sidebar">
+  <div class="r-side-title">
+    <div class="r-side-title-wrap">
+      <img src="assets/info.svg" alt="Info svg">
+      <p>Information & Authors</p>
+    </div>
+    <div class="r-side-tabs">
+      <p>Information</p>
+      <p>Authors</p>
+    </div>
+  </div>
+  <div class="r-side-publication">
+    <img src="assets/journal.svg" alt="image of journal">
+    <div class="journal-details">
+      <p class="journal-name">Journal of Astrophysics</p>
+      <p class="issue-no">Volume 32, Issue 4</p>
+      <p class="issue-date">January 2018</p>
+      <p class="issue-issn">ISSN:0045434-5211</p>
+      <p class="issue-eissn">EISSN:1146-735X</p>
+      <p class="issue-editor">Editor:Eva Tardos</p>
+      <p class="issue-uni">Cornell University</p>
+      <a href="#" class="content-table">Issue's Table of Contents</a>
+    </div>
+    {#  I could style those p without classes, with selectors like nth-child(),
+     I only did it for better readability of the stylesheet #}
+  </div>
+  <div class="r-side-permissions">
+    <p>Permissions</p>
+    <p>Request permissions about this article.</p>
+    <button type="button" name="button">Request Permissions</button>
+  </div>
+  <div class="r-side-history">
+    <p>Submission history</p>
+    <div class="sub-history-wrap">
+      <p>[v4] Fri, 7 Jul 2017 18:01:03 GMT (1528kb,D)</p>
+      <p>I'd imagine this is how it would look as a template:</p>
+      <p>[{/{issue number path}/}] {/{Issue details path}/}</p>
+    </div>
+  </div>
+  <div class="r-side-keywords">
+    <p>formal methods and theory of security</p>
+    <p>security protocols</p>
+    <p>memory expansion technology</p>
+    <p>conversion accuracy</p>
+    <p>synchronization</p>
+  </div>
+  <div class="r-side-interests">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mollis risus eu dapibus varius. Nam pellentesque convallis laoreet. Nullam ornare mollis commodo. Nunc in orci venenatis, dictum dui eu, euismod nunc. Ut vulputate, est vel luctus scelerisque, purus ipsum cursus nunc, vitae ornare nisi nibh ornare turpis. Aliquam sed placerat nisl, a bibendum arcu. Sed vulputate nunc ac turpis blandit fringilla. Nam vel iaculis nisi.</p>
+  </div>
+</div>
 </div>

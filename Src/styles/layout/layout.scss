@@ -5,6 +5,7 @@ body{
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  overflow-x: hidden;
   .wrapper{flex: 1;}
 }
 
@@ -21,17 +22,13 @@ body{
   }
 }
 
-.sticky{
+.fixed{
   position: fixed;
-  &.c-right-sidebar{
-    position: fixed;
-    z-index: 1;
-    background: #fff;
-    overflow-x: hidden;
-    top:50%;
-    right:5%;
-  }
 }
 
-
-.l-main-content-wrap{width: 50%;}
+.l-left-wrap{
+  width: 50%;
+  margin-top:14%;
+}
+.l-right-wrap{width: 40%;}
+.l-main-content-wrap{width: 100%;}

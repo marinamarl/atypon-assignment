@@ -1,7 +1,9 @@
 .c-left-sidebar{
   border: solid #E0E0E0 1px;
   box-shadow: 0 6px 11px 0px rgba(0, 0, 0, 0.08);
-  height: 100%;
+  width: 60%;
+  margin: auto;
+  margin-left: 30%;
 }
 .c-sbr{
   padding: 0 16px;
@@ -68,3 +70,5 @@
     text-align: center;
   }
 }
+
+.c-lsbr-3{background-color: #E0E0E0;}

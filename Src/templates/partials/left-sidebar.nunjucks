@@ -1,3 +1,4 @@
+<div class="l-left-wrap">
 <div class="c-left-sidebar">
   <div class="c-lsbr-1 c-sbr">
     <h5>Journal of Astrophysics</h5>
@@ -29,4 +30,5 @@
   <div class="c-lsbr-3 c-sbr">
     <div class="c-logo-pseudo c-logo-s-pseudo flex between"><a href="#" class="logo sidebar-logo"><span class="first-word">Scientific</span> Publications</a></div>
   </div>
+</div>
 </div>

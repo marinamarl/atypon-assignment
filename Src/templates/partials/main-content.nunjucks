@@ -6,6 +6,18 @@
   <div class="c-conent-abstract">
     <h4>Abstract</h4>
     <p>Approximate computing has gained research attention recently as a way to increase energy efficiency and/or performance by exploiting some applications’ intrinsic error resiliency. However, little attention has been given to its potential for tackling the communication bottleneck that remains one of the looming challenges to be tackled for efficient parallelism. This article explores the potential benefits of approximate computing for communication reduction by surveying three promising techniques for approximate communication: compression, relaxed synchronization, and value prediction. The techniques are compared based on an evaluation framework composed of communication cost reduction, performance, and output degradation. Comparison results demonstrate that lossy link compression and approximate value prediction show great promise for reducing the communication bottleneck in bandwidth-constrained applications. Meanwhile, relaxed synchronization is found to provide large speedups for select error-tolerant. What event xplores the potential benefits of approximate computing.</p>
-    <p>(this is just filler)</p>
+    <p>(this is just unstyled filler)</p>
+  </div>
+  <div class="c-main-video">
+    <div class="vid-head">
+      <p>Video 1. Gamification and other concepts evolution</p>
+    </div>
+    <div class="vid-body">
+      <p><\iframe width="" height="" src="#"><\/iframe></p>
+    </div>
+  </div>
+  <div class="c-main-introduction">
+    <p>Introduction</p>
+    <p>Approximate computing has gained research attention recently as a way to increase energy efficiency and/or performance by exploiting some applications’ intrinsic error resiliency. However, little attention has been given to its potential for tackling the communication bottleneck that remains one of the looming challenges to be tackled for efficient parallelism. This article explores the potential benefits of approximate computing for communication reduction by surveying three promising techniques for approximate communication: compression, relaxed synchronization [6], and value prediction. The techniques are compared based on an evaluation framework composed of communication cost reduction, performance, and output degradation. Comparison results demonstrate that lossy link compression and approximate value prediction show great promise for reducing the communication bottleneck in bandwidth-constrained applications. Meanwhile, relaxed synchronization is found to provide large speedups for select error-tolerant. What event xplores the potential benefits of approximate computing.</p>
   </div>
 </div>

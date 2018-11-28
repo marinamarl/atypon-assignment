@@ -16,8 +16,9 @@
 }
 
 .c-logo-s-pseudo:before{
-  width: 25px;
-  height: 25px;
+  width: 11%;
+  height: 20px;
+  margin: 5px 0;
 }
 
 .logo{
@@ -40,7 +41,8 @@
     margin-left: -25px;
   }
     &.sidebar-logo{
-      margin: 19px;
-      margin-left: -25px;
+      width: 100%;
+      margin: 7px;
+      margin-left: -10px;
     }
 }
