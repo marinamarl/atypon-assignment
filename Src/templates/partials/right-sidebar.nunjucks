@@ -1,7 +1,7 @@
 <div class="l-right-wrap">
 <div class="c-r-side-opener fixed u-side-open flex">
-  <img src="assets/info.svg" alt="Info svg">
-  <img src="assets/graph.svg" alt="graph svg">
+  <img src="assets/info.svg" alt="Info svg" onclick="openNav()">
+  <div><img src="assets/graph.svg" alt="graph svg"></div>
   <img src="assets/eye.svg" alt="eye svg">
   <img src="assets/link.svg" alt="link svg">
   {#  need :before element with number of links#}
@@ -10,17 +10,18 @@
 </div>
 
 <div class="c-right-sidebar">
-  <div class="r-side-title">
+  <div class="r-side-title ">
     <div class="r-side-title-wrap">
+      <h4>A sadly unstyled sidebar!</h4>
       <img src="assets/info.svg" alt="Info svg">
       <p>Information & Authors</p>
     </div>
-    <div class="r-side-tabs">
+    <div class="r-side-tabs flex">
       <p>Information</p>
       <p>Authors</p>
     </div>
   </div>
-  <div class="r-side-publication">
+  <div class="r-side-publication flex">
     <img src="assets/journal.svg" alt="image of journal">
     <div class="journal-details">
       <p class="journal-name">Journal of Astrophysics</p>
