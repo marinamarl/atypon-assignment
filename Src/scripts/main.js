@@ -9,8 +9,7 @@ placeholder.classList.add('fauxMenu');
 var isAdded = false;
 
 window.addEventListener('scroll', function() {
-  // fixedHeader();
-  myFunction();
+  fixedHeader();
 })
 
 // function fixedHeader(){
@@ -31,7 +30,7 @@ window.addEventListener('scroll', function() {
 var navbar = document.getElementById('navbar');
 var sticky = navbar.offsetTop;
 
-function myFunction() {
+function fixedHeader() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add('fixed');
   } else {
