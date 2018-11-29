@@ -9,8 +9,12 @@ I used nunjucks to break down the test into partials instead of php, because as 
 Fonts:
 I have opted for not using any fonts as there were none specified, but using the svgs from  figma. Fonts can be very specific for each project and so didnt want to use just ones that 'looked' similar.
 
-Add setup steps
+Setup steps
 --------------
+1) unzip.
+2) npm install
+3) run gulp
+4) navigate to localhost:8080
 
 Future steps
 --------------
@@ -18,9 +22,13 @@ a) Better tree: example, separate node_modules and package-lock.json from the re
 
 b) breakpoint at 780px
 
-c) mobile responsive
+c) Complete mobile responsive
 
 d) find a way to make the sidebar opener stop at footer top, and continue when scrolling up. (I know a way with jquery, need to research with vanila js).
+
+e) minor:
+    a) Add pseudo for sidebar opener (like one left sidebar, comments)
+    b) Right sidebar height to reach to the bottom (might need complete layout restructure...)
 
 Workday:
 --------
@@ -54,4 +62,4 @@ Day 7:
 1) Actual right sidebar structure
 2) Right sidebar with icons animation from right to Left
 Note: Much time again was spend on deciding whether to use pure css solution or js (and applying a technique for each version). I opted for js because it meant that both the opener and the sidebar could be animated with one function (essentially, one handler for the same action rather than two complex css blocks).
-3) Mobile version
+3) Started mobile version (only structure and styled the header)
