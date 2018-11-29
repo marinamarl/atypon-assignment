@@ -1,4 +1,4 @@
-<div class="c-footer footer">
+<div class="c-footer footer mobile-none">
   <div class="c-footer-inner ">
     <div class="l-cols-wrap flex between">
       <ul class="c-foot-col-1 c-foot-col">
@@ -45,4 +45,14 @@
       </div>
     </div>
   </div>
+</div>
+{# I am aware that creating the same object twice is not ideal for performance. 
+I think however this is the quickest way to demonstrate for the example, and
+because this footer happens to be a bit different than the desktop one, to create
+a more universal one would need a lot of restructuring of the original footer.
+So for the sake of 'finishing' the test as soon as is reasonably possible, i opted
+for the double element at some places. #}
+<div class="c-footer c-m-footer desk-none">
+<p>collapsible menus</p>
+<p>copyright and logo</p>
 </div>
