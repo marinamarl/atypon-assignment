@@ -20,6 +20,8 @@ b) breakpoint at 780px
 
 c) mobile responsive
 
+d) find a way to make the sidebar opener stop at footer top, and continue when scrolling up. (I know a way with jquery, need to research with vanila js).
+
 Workday:
 --------
 Day 1: Setup automation (npm/gulp) of created files and structure of folder/file tree (nunjucks).
@@ -42,11 +44,14 @@ Day 5:
 4) Right sidebar icons creation
 
 Day 6:
-1) fixed header (black only) Note:
+1) fixed header (black only)
+Note 1:
 I spend much time trying to figure out a pure css cross browser solution. I would have liked to use a pure css solution with the 'fixed' value for the 'position' property. However it is not supported for IE and some versions of other browsers such as Edge and Chrome support it only partially. see https://caniuse.com/#search=fixed
 Further, i spend much time trying to find an esc6 solution for handling the window object (the use of 'let') but let can not be defined in the window object (as i understood it).
+Note 2: A known bug is that the added div 'faux-header' stays in place when the window refreshes whilst the page is not scrolled to the top. It can be (probably) fixed with a rule that would delete said div, on page refresh.
 
 Day 7:
 1) Actual right sidebar structure
 2) Right sidebar with icons animation from right to Left
+Note: Much time again was spend on deciding whether to use pure css solution or js (and applying a technique for each version). I opted for js because it meant that both the opener and the sidebar could be animated with one function (essentially, one handler for the same action rather than two complex css blocks).
 3) Mobile version

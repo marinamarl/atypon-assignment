@@ -10,19 +10,41 @@ var isAdded = false;
 
 window.addEventListener('scroll', function() {
   fixedHeader();
-  // fixedSidebar();
 })
 
 function fixedHeader(){
-  if (window.pageYOffset < menuPosition.top && isAdded) {
-      menu.classList.remove('fixed');
-      menu.parentNode.removeChild(placeholder);
-      isAdded = false;
-  }
-  else if (window.pageYOffset >= menuPosition.top && !isAdded) {
-      menu.classList.add('fixed');
-      menu.parentNode.appendChild(placeholder, menu);
-      isAdded = true;
+//   if (window.pageYOffset < menuPosition.top && isAdded) {
+//       menu.classList.remove('fixed');
+//       menu.parentNode.removeChild(placeholder);
+//       isAdded = false;
+//   }
+//   else if (window.pageYOffset >= menuPosition.top && !isAdded) {
+//       menu.classList.add('fixed');
+//       menu.parentNode.appendChild(placeholder, menu);
+//       isAdded = true;
+//   }
+// enable the previous and disable below, to remove slight 'jump' of menu on
+// scroll down, however it bugs out on mid page refresh
+var sticky = menu.offsetTop;
+
+if (window.pageYOffset >= sticky) {
+  menu.classList.add('fixed');
+} else {
+  menu.classList.remove('fixed');
+}
+
+}
+
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById('navbar');
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add('fixed');
+  } else {
+    navbar.classList.remove('fixed');
   }
 }
 
@@ -41,12 +63,3 @@ function openNav() {
         innerWrapper.classList.remove('overlay');
       }
 }
-
-
-// function fixedSidebar() {
-//   if( menu.classList.contains('fixed')){
-//     document.querySelector('.u-side-open').classList.add('fixed');
-//   } else {
-//     document.querySelector('.u-side-open').classList.remove('fixed');
-//   }
-// }

@@ -30,7 +30,7 @@
       <i class="fas fa-search"></i>
     </div>
   </div>
-  <div class="c-head-part3 flex center u-head-part3">
+  <div id="navbar" class="c-head-part3 flex center u-head-part3">
       <div><a href="#">Journal Home</a></div>
       <div><a href="#">Latest Issue</a></div>
       <div><a href="#">Archive</a></div>
