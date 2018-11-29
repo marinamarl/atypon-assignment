@@ -86,7 +86,35 @@
     margin: auto 0;
   }
 }
-.l-m-header{display: none;}
+.l-m-header{
+  display: none;
+  .l-m-head-1{
+    display: flex;
+    justify-content: space-around;
+  }
+  .l-m-head-menu{
+    width: 24px;
+    height: 100%;
+    // margin: auto;
+    div{
+      width: 20px;
+      height: 2px;
+      background-color: black;
+      margin: 6px 0;
+    }
+  }
+  p{margin: 0;}
+  .c-logo-s-pseudo:before{width: 21px;}
+  .l-m-head-2{
+    justify-content: center;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    p{margin-right: 5px;}
+    .fa{margin-top: 3px;}
+  }
+}
+
 @media screen and (max-width: $break-small) {
     // .l-header{display: none;}
     .l-m-header{display: block;}

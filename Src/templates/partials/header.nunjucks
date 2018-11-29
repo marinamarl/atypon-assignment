@@ -45,9 +45,15 @@
 </header>
 <header class="l-m-header">
   <div class="l-m-head-1">
-    <p>white header filler</p>
+    <div class="l-m-head-menu">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <div class="c-logo-pseudo c-logo-s-pseudo flex between"><a href="#" class="logo sidebar-logo"><span class="first-word">Scientific</span> Publications</a></div>
+    <img src="assets/profile.svg" alt="">
   </div>
-  <div class="l-m-head-2">
-    <p>black header filler</p>
+  <div class="l-m-head-2 flex">
+    <p>Archive</p><i class="fas fa-angle-down"></i>
   </div>
 </header>
