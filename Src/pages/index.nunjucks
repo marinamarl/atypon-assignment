@@ -5,7 +5,7 @@
 <div class="wrapper">
 {% include "../templates/partials/header.nunjucks" %}
 <div class="l-inner-wrapper">
-  <div class="l-separator">
+  <div class="l-separator mobile-none">
     <div class="c-separator">
       <div class="blue-square">
 

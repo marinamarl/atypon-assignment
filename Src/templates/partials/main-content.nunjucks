@@ -1,7 +1,18 @@
 <div class="l-main-content-wrap">
   <div class="c-main-content-header">
-    <h1>Approximate Communication: Techniques for Reducing Communication Bottlenecks in Large-Scale Parallel Systems</h1>
+    <h1 class="mobile-none">Approximate Communication: Techniques for Reducing Communication Bottlenecks in Large-Scale Parallel Systems</h1>
+    <h4 class="desk-none">Approximate Communication: Techniques for Reducing Communication Bottlenecks in Large-Scale Parallel Systems</h4>
     <p>(Author cred, socials etc)</p>
+  </div>
+  <div class="c-main-side-opener u-side-open flex between desk-none">
+    <img src="assets/burger.svg" alt="Burger svg">
+    <img src="assets/info.svg" alt="Info svg">
+    <img src="assets/graph.svg" alt="graph svg">
+    <img src="assets/eye.svg" alt="eye svg">
+    <img src="assets/link.svg" alt="link svg">
+    {#  need :before element with number of links#}
+    <img src="assets/calendar.svg" alt="calendar svg">
+    <img src="assets/share.svg" alt="share svg">
   </div>
   <div class="c-conent-abstract">
     <h4>Abstract</h4>

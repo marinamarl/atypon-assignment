@@ -1,0 +1,14 @@
+$break-small: 375px;
+$break-tablet: 770px;
+// obviously this file has no reason to exist just for one line. I only did it to
+// illustrate the file structure on a larger-scale project
+.mobile-none{
+  @media screen and (max-width: $break-small) {
+    display: none!important;
+  }
+}
+.desk-none{
+  @media screen and (min-width: $break-tablet) {
+    display: none!important;
+  }
+}

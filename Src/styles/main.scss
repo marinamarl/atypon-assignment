@@ -1,3 +1,5 @@
+@import 'variables/media-queries.scss';
+
 @import 'base/base.scss';
 
 @import 'layout/layout.scss';
@@ -9,6 +11,8 @@
 @import 'components/separator-indicator.scss';
 
 @import 'components/left-sidebar.scss';
+
+@import 'components/main-content.scss';
 
 @import 'components/right-sidebar.scss';
 

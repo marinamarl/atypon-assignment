@@ -1,12 +1,12 @@
-<div class="l-right-wrap">
+<div class="l-right-wrap mobile-none">
 <div class="c-r-side-opener fixed u-side-open flex">
   <img src="assets/info.svg" alt="Info svg" onclick="openNav()">
-  <div><img src="assets/graph.svg" alt="graph svg"></div>
-  <img src="assets/eye.svg" alt="eye svg">
-  <img src="assets/link.svg" alt="link svg">
+  <img src="assets/graph.svg" alt="graph svg" onclick="openNav()">
+  <img src="assets/eye.svg" alt="eye svg" onclick="openNav()">
+  <img src="assets/link.svg" alt="link svg" onclick="openNav()">
   {#  need :before element with number of links#}
-  <img src="assets/calendar.svg" alt="calendar svg">
-  <img src="assets/share.svg" alt="share svg">
+  <img src="assets/calendar.svg" alt="calendar svg" onclick="openNav()">
+  <img src="assets/share.svg" alt="share svg" onclick="openNav()">
 </div>
 
 <div class="c-right-sidebar">

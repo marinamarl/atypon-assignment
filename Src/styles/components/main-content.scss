@@ -1,0 +1,7 @@
+.c-main-side-opener{
+  box-shadow: 0 2px 11px 0px rgba(0, 0, 0, 0.08);
+  img{
+    padding: 20px 10px;
+    &:first-child{border-right: solid #E0E0E0 1px;}
+  }
+}

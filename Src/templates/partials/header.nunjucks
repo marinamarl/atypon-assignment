@@ -1,5 +1,5 @@
 <!-- header.nunjucks -->
-<header class="l-header">
+<header class="l-header mobile-none">
   <div class="c-head-part1 c-logo-pseudo c-logo-h-pseudo flex between">
     {# I assume that this would be an img of the logo instead #}
     <a href="#" class="logo header-logo"><span class="first-word">Scientific</span> Publications</a>
@@ -41,5 +41,13 @@
       <div><a href="#">Award Winners</a></div>
       <div><a href="#">About</a></div>
       <button class="subscribe">Subscribe</button>
+  </div>
+</header>
+<header class="l-m-header">
+  <div class="l-m-head-1">
+    <p>white header filler</p>
+  </div>
+  <div class="l-m-head-2">
+    <p>black header filler</p>
   </div>
 </header>
