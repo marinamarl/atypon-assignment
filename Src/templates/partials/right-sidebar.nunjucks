@@ -1,12 +1,14 @@
 <div class="l-right-wrap mobile-none">
 <div class="c-r-side-opener fixed u-side-open flex">
-  <img src="assets/info.svg" alt="Info svg" onclick="openNav()">
-  <img src="assets/graph.svg" alt="graph svg" onclick="openNav()">
-  <img src="assets/eye.svg" alt="eye svg" onclick="openNav()">
-  <img src="assets/link.svg" alt="link svg" onclick="openNav()">
-  {#  need :before element with number of links#}
-  <img src="assets/calendar.svg" alt="calendar svg" onclick="openNav()">
-  <img src="assets/share.svg" alt="share svg" onclick="openNav()">
+  <div id="info-tab" class="info-tab" onclick="openNav(this.id)"></div>
+{#  this is the only one that works, since its the only one who's sidebar has
+the info of. The same function can be tweaked to suit all icons, once given an id etc.#}
+  <div class="graph-tab"></div>
+  <div class="eye-tab" ></div>
+  {# need :before element with number of links#}
+  <div class="link-tab"></div>
+  <div class="calendar-tab"></div>
+  <div class="share-tab"></div>
 </div>
 
 <div class="c-right-sidebar">
